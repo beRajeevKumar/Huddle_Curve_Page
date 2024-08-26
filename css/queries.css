@@ -1,0 +1,123 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px  */
+
+@media (max-width: 84em) {
+  .feature__item-content,
+  .footer__content {
+    margin: 0 8rem;
+  }
+}
+@media (max-width: 75em) {
+  .feature__item-content {
+    gap: 8rem;
+  }
+}
+@media (max-width: 69em) {
+  html {
+    font-size: 56.25%;
+  }
+  .header__logo,
+  .footer__logo {
+    width: 20rem;
+  }
+  .hero__img {
+    width: 80%;
+    height: 100%;
+  }
+}
+@media (max-width: 61em) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    padding: 0 2.4rem;
+  }
+  .hero__img {
+    width: 75%;
+    height: 100%;
+  }
+  .stats {
+    padding: 0 16rem;
+  }
+}
+@media (max-width: 54em) {
+  .heading-primary {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 48em) {
+  .stats {
+    padding: 0 12rem;
+  }
+  .feature__item-content,
+  .footer__content {
+    margin: 0 3.2rem;
+  }
+  br {
+    display: none;
+  }
+}
+@media (max-width: 26em) {
+  html {
+    font-size: 43.75%;
+  }
+  .hero__content {
+    margin: 0 4rem;
+  }
+  .hero__text {
+    margin: 0 4rem 4rem 4rem;
+  }
+  .stats {
+    flex-direction: column;
+    padding: 0 15rem;
+    gap: 12rem;
+  }
+  .stats__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .stats__icon {
+    width: 6.4rem;
+    margin-bottom: 1.6rem;
+  }
+  .feature__item-content {
+    grid-template-columns: 1fr;
+    gap: 6.4rem;
+    padding: 4.8rem;
+  }
+  .features__item-text {
+    text-align: center;
+    /* grid-row-start: 3;
+    grid-row-end: 4; */
+    grid-row: 3 / 4;
+  }
+  .features__text {
+    font-size: 1.8rem;
+  }
+  .section-join {
+    margin: 8rem 0 24rem 0;
+  }
+
+  .footer__content {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    margin: 0 4rem;
+  }
+  .footer__content--left {
+    /* grid-row-start: 3;
+    grid-row-end: 4; */
+    grid-row: 3 / 4;
+  }
+  .footer__text {
+    font-size: 1.8rem;
+  }
+  .footer__form {
+    flex-direction: column;
+    align-items: end;
+  }
+  .footer__btn {
+    font-size: 1.8rem;
+  }
+  br {
+    display: none;
+  }
+}

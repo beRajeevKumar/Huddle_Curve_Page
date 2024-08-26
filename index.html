@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frontend Mentor Challenge: Huddle landing page with curved sections"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="icon" href="./images/favicons/favicon-64.png" />
+    <link
+      rel="apple-touch-icon"
+      href="./images/favicons/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <!-- Font Families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+
+    <title>Rajeev Kumar &mdash; Huddle Landing Page</title>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <a href="#hero">
+          <img src="./images/logo.svg" alt="Huddle Logo" class="header__logo" />
+        </a>
+        <a href="#" class="header__btn">Try it free</a>
+      </header>
+      <section class="section-hero" id="hero">
+        <div class="hero container">
+          <div class="hero__content">
+            <h1 class="heading-primary">
+              Build The Community Your Fans Will Love
+            </h1>
+            <p class="hero__text">
+              Huddle re-imagines the way we build communities. You have a
+              <br />voice, but so does your audience. Create connections with
+              your<br />
+              users as you engage in genuine discussion.
+            </p>
+            <a href="#join" class="btn">Get Started For Free</a>
+          </div>
+          <div class="hero__img-box">
+            <img
+              src="./images/screen-mockups.svg"
+              alt="Huddle Mockups"
+              class="hero__img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-stats">
+        <div class="stats container">
+          <div class="stats__item">
+            <img
+              class="stats__icon"
+              src="./images/icon-communities.svg"
+              alt="Communities Icon"
+            />
+            <div class="stats__text-box">
+              <span class="text-big">1.4k+</span>
+              <p class="stats__text">Communities Formed</p>
+            </div>
+          </div>
+          <div class="stats__item">
+            <img
+              class="stats__icon"
+              src="./images/icon-messages.svg"
+              alt="Message Icon"
+            />
+            <div class="stats__text-box">
+              <span class="text-big">2.7m+</span>
+              <p class="stats__text">Messages Sent</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-features">
+        <div class="features">
+          <div class="features__item">
+            <div class="features__bg-shape">
+              <picture>
+                <source
+                  media="(max-width: 48em)"
+                  srcset="./images/bg-section-top-mobile-1.svg"
+                  type="image/svg+xml"
+                />
+                <source
+                  srcset="./images/bg-section-top-desktop-1.svg"
+                  type="image/svg+xml"
+                />
+                <img
+                  class="bg-shape-img"
+                  src="./images/bg-section-top-desktop-1.svg"
+                  alt="Background Top Shape 01"
+                />
+              </picture>
+            </div>
+            <div class="features__background-color">
+              <div class="feature__item-content container">
+                <div class="features__item-text">
+                  <h2 class="heading-secondary">Grow Together</h2>
+                  <p class="features__text">
+                    Generate meaningful discussions with your audience and build
+                    a strong, loyal community. Think of the insightful
+                    conversations you miss out on with a feedback form.
+                  </p>
+                </div>
+                <div class="features__item-img">
+                  <img
+                    class="features__img"
+                    src="./images/illustration-grow-together.svg"
+                    alt="Grow Together Icon"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="features__bg-shape">
+              <picture>
+                <source
+                  media="(max-width: 48em)"
+                  srcset="./images/bg-section-bottom-mobile-1.svg"
+                  type="image/svg+xml"
+                />
+                <source
+                  srcset="./images/bg-section-bottom-desktop-1.svg"
+                  type="image/svg+xml"
+                />
+                <img
+                  class="bg-shape-img"
+                  src="./images/bg-section-bottom-desktop-1.svg"
+                  alt="Background Bottom Shape 01"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="features__item">
+            <div class="feature__item-content container">
+              <div class="features__item-img">
+                <img
+                  class="features__img"
+                  src="./images/illustration-flowing-conversation.svg"
+                  alt="Grow Together Icon"
+                />
+              </div>
+              <div class="features__item-text">
+                <h2 class="heading-secondary">Flowing Conversations</h2>
+                <p class="features__text">
+                  You wouldn't paginate a conversation in real life, so why do
+                  it online? Our threads have just-in-time loading for a more
+                  natural flow.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="features__item">
+            <div class="features__bg-shape">
+              <picture>
+                <source
+                  media="(max-width: 48em)"
+                  srcset="./images/bg-section-top-mobile-2.svg"
+                  type="image/svg+xml"
+                />
+                <source
+                  srcset="./images/bg-section-top-desktop-2.svg"
+                  type="image/svg+xml"
+                />
+                <img
+                  class="bg-shape-img"
+                  src="./images/bg-section-top-desktop-2.svg"
+                  alt="Background Top Shape 01"
+                />
+              </picture>
+            </div>
+            <div class="features__background-color">
+              <div class="feature__item-content container">
+                <div class="features__item-text">
+                  <h2 class="heading-secondary">Your Users</h2>
+                  <p class="features__text">
+                    It takes no time at all to integrate Huddle with your app's
+                    authentication solution. This means, once signed in to your
+                    app, your users can start chatting immediately.
+                  </p>
+                </div>
+                <div class="features__item-img">
+                  <img
+                    class="features__img"
+                    src="./images/illustration-your-users.svg"
+                    alt="Grow Together Icon"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="features__bg-shape">
+              <picture>
+                <source
+                  media="(max-width: 48em)"
+                  srcset="./images/bg-section-bottom-mobile-2.svg"
+                  type="image/svg+xml"
+                />
+                <source
+                  srcset="./images/bg-section-bottom-desktop-2.svg"
+                  type="image/svg+xml"
+                />
+                <img
+                  class="bg-shape-img"
+                  src="./images/bg-section-bottom-desktop-2.svg"
+                  alt="Background Bottom Shape 02"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-join" id="join">
+        <div class="join container">
+          <h1 class="heading-primary">Ready To Build Your Community?</h1>
+          <a href="#" class="btn">Get Started For Free</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__background-img">
+        <picture>
+          <source
+            media="(max-width: 48em)"
+            srcset="./images/bg-footer-top-mobile.svg"
+            type="image/svg+xml"
+          />
+          <source
+            srcset="./images/bg-footer-top-desktop.svg"
+            type="image/svg+xml"
+          />
+          <img
+            class="bg-shape-img"
+            src="./images/bg-footer-top-desktop.svg"
+            alt="Footer Background Shape Image "
+          />
+        </picture>
+      </div>
+      <div class="footer__background-color">
+        <div class="footer__content container">
+          <div class="footer__content--left">
+            <div class="footer__logo--box">
+              <a href="#">
+                <img
+                  src="./images/logo-footer.svg"
+                  alt="Huddle Logo"
+                  class="footer__logo"
+                />
+              </a>
+            </div>
+
+            <p class="footer__text">
+              Lorem ipsum dolor sit amet, consectetur<br />
+              adipiscing elit. Mauris nulla quam, hendrerit <br />
+              lacinia vestibulum a, ultrices quis sem.
+            </p>
+            <div class="footer__contact">
+              <p class="footer__contact--info">
+                <img
+                  class="footer__contact--icon"
+                  src="./images/icon-phone.svg"
+                  alt="Phone Icon"
+                /><a class="footer__contact--link" href="tel:+1-543-123-4567"
+                  >Phone: +1-543-123-4567</a
+                >
+              </p>
+              <p class="footer__contact--info">
+                <img
+                  class="footer__contact--icon"
+                  src="./images/icon-email.svg"
+                  alt="Email Icon"
+                />
+                <a
+                  class="footer__contact--link"
+                  href="mailto:work.rajeevkumar@gmail.com"
+                  >example@huddle.com</a
+                >
+              </p>
+            </div>
+            <div class="footer__socials">
+              <a class="footer__social--link" href="#">
+                <ion-icon
+                  class="footer__social--icon"
+                  name="logo-facebook"
+                ></ion-icon>
+              </a>
+              <a class="footer__social--link" href="#">
+                <ion-icon
+                  class="footer__social--icon"
+                  name="logo-instagram"
+                ></ion-icon>
+              </a>
+              <a class="footer__social--link" href="#">
+                <ion-icon
+                  class="footer__social--icon"
+                  name="logo-twitter"
+                ></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="footer__content--right">
+            <h2 class="heading-tertiary footer__heading-tertiary">
+              Newsletter
+            </h2>
+            <p class="footer__text">
+              To recieve tips on how to grow your community,<br />
+              sign up to our weekly newsletter. We’ll never send <br />
+              you spam or pass on your email address
+            </p>
+            <form action="#" class="footer__form">
+              <input
+                type="email"
+                class="footer__input"
+                spellcheck="false"
+                id="email-field"
+              />
+              <!-- <p class="footer__input--error">Check your email please!</p> -->
+              <button form="email-field" class="footer__btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</html>

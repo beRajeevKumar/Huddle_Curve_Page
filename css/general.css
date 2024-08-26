@@ -1,0 +1,76 @@
+:root {
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
+
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --light-grayish-cyan: hsl(208, 11%, 55%);
+  --very-pale-blue: hsl(207, 100%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+} /* 1rem = 10px */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.heading-primary {
+  font-size: 4.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: var(--very-dark-cyan);
+  margin-bottom: 2.4rem;
+}
+.text-big {
+  font-size: 8.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: var(--very-dark-cyan);
+}
+.heading-secondary {
+  font-size: 3.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: var(--very-dark-cyan);
+  margin-bottom: 2rem;
+}
+.heading-tertiary {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--very-pale-blue);
+  margin-bottom: 1.6rem;
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 2.4rem 8rem;
+  border-radius: 10rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--very-pale-blue);
+  transition: all 0.2s;
+  background-color: var(--pink);
+  cursor: pointer;
+}
+.btn:hover,
+.btn:active {
+  transform: translateY(-3px);
+  background-color: var(--light-pink);
+}
+.bg-shape-img {
+  display: block;
+  width: 100%;
+}

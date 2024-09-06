@@ -31,12 +31,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-- Solution URL: [Checkout Repository](https://github.com/beRajeevKumar/Huddle_Curve_Page.git).
 - Live Site URL: [Visit Live](https://huddlecurve-rajeev.netlify.app/).
-- Blog Post URL: [Read Blog](https://www.iamrajeev.me/blog/qr-code-component-using-html-and-css).
+- Solution URL: [Checkout Repository](https://github.com/beRajeevKumar/Huddle_Curve_Page.git).
+- Blog Post URL: [Read Blog](https://dev.to/be_rajeevkumar/how-i-built-huddle-landing-page-with-curved-sections-1lnh).
 
 ## My process
 

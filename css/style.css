@@ -172,12 +172,30 @@
   text-transform: uppercase;
   font-size: 2.4rem;
 }
-.footer__form {
+.form-group {
   display: flex;
   gap: 1.6rem;
   margin-top: 4.8rem;
   /* position: relative; */
 }
+
+.footer__input--error {
+  color: var(--light-red);
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  display: none;
+}
+.on-error input {
+  border: 2px solid var(--light-red);
+}
+.on-error .footer__input--error {
+  display: block;
+}
+.on-success .footer__input--error {
+  color: rgb(65, 186, 99);
+  display: block;
+}
+
 .footer__input {
   font-family: inherit;
   padding: 1rem 2rem;
